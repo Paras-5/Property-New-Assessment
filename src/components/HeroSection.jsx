@@ -16,7 +16,7 @@ const HeroSection = () => {
             automated communication. Boost sales with targeted marketing,
             real-time insights, and data-driven decision-making.
           </p>
-          <div className="relative">
+          <div className="hidden md:block relative">
           <div className="absolute bottom-0 right-0 left-1 h-1/2 bg-gradient-to-b from-transparent to-white"></div>
             <button className=" hover:cursor-pointer text-sm absolute px-4 py-2 text-[#BB2828] border border-[#BB2828] rounded-4xl">
               Book a free trial
@@ -24,8 +24,8 @@ const HeroSection = () => {
             {/* Small Image Below Text */}
             <img
               src={Building}
-              alt="Buuilding"
-              className="w-64 md:w-120 mx-auto md:mx-0 "
+              alt="Building"
+              className=" md:w-120 mx-auto md:mx-0 "
             />
           </div>
         </div>
@@ -35,27 +35,27 @@ const HeroSection = () => {
           <img
             src={TabletMobile}
             alt="Tablet & Mobile"
-            className=" absolute w-full max-w-md"
-          />
+            className=" w-full max-w-md"
+          />  
         </div>
       </section>
-      <section class="flex justify-between gap-8 p-6 bg-gray-100">
-        <ul class=" ml-30 mr-30 flex w-full justify-around">
-          <li class="text-center">
-            <h1 class="text-left text-2xl font-bold text-gray-500">30%</h1>
-            <div class="text-gray-400 text-sm">Lead Conversion</div>
+      <section className="flex justify-between gap-8 p-6 bg-gray-100">
+        <ul className=" ml-30 mr-30 flex w-full justify-around">
+          <li className="text-center">
+            <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
+            <div className="text-gray-400 text-sm">Lead Conversion</div>
           </li>
-          <li class="text-center">
-            <h1 class="text-left text-2xl font-bold text-gray-500">30%</h1>
-            <div class="text-gray-400 text-sm">Lead Conversion</div>
+          <li className="text-center">
+            <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
+            <div className="text-gray-400 text-sm">Lead Conversion</div>
           </li>
-          <li class="text-center">
-            <h1 class="text-left text-2xl font-bold text-gray-500">30%</h1>
-            <div class="text-gray-400 text-sm">Lead Conversion</div>
+          <li className="text-center">
+            <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
+            <div className="text-gray-400 text-sm">Lead Conversion</div>
           </li>
-          <li class="text-center">
-            <h1 class="text-left text-2xl font-bold text-gray-500">30%</h1>
-            <div class="text-gray-400 text-sm">Lead Conversion</div>
+          <li className="text-center">
+            <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
+            <div className="text-gray-400 text-sm">Lead Conversion</div>
           </li>
         </ul>
       </section>
