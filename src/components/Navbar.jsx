@@ -6,10 +6,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav
-      className="flex items-center justify-between px-6 py-4 bg-white text-black shadow-md shadow-black/25 backdrop-blur-lg
-"
-    >
+    <nav className="flex items-center justify-between px-6 py-4 bg-white text-black shadow-md shadow-black/25 backdrop-blur-lg">
       {/* Logo */}
       <img
         src={logo}
@@ -62,16 +59,10 @@ const Navbar = () => {
       {/* Mobile Menu (Conditional Rendering) */}
       {isMobileMenuOpen && (
         <ul className="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col items-center space-y-4 py-4 text-sm md:hidden ">
-          <li className="hover:text-gray-500 hover:cursor-pointer">
-            Home
-          </li>
+          <li className="hover:text-gray-500 hover:cursor-pointer">Home</li>
           <li className="hover:text-gray-500 hover:cursor-pointer">About us</li>
-          <li className="hover:text-gray-500 hover:cursor-pointer">
-            Services
-          </li>
-          <li className="hover:text-gray-500 hover:cursor-pointer">
-            Blog 
-          </li>
+          <li className="hover:text-gray-500 hover:cursor-pointer">Services</li>
+          <li className="hover:text-gray-500 hover:cursor-pointer">Blog</li>
           <li className="hover:text-gray-500 hover:cursor-pointer">
             Contact us
           </li>

@@ -17,7 +17,7 @@ const HeroSection = () => {
             real-time insights, and data-driven decision-making.
           </p>
           <div className="hidden md:block relative">
-          <div className="absolute bottom-0 right-0 left-1 h-1/2 bg-gradient-to-b from-transparent to-white"></div>
+            <div className="absolute bottom-0 right-0 left-1 h-1/2 bg-gradient-to-b from-transparent to-white"></div>
             <button className=" hover:cursor-pointer text-sm absolute px-4 py-2 text-[#BB2828] border border-[#BB2828] rounded-4xl">
               Book a free trial
             </button>
@@ -36,11 +36,11 @@ const HeroSection = () => {
             src={TabletMobile}
             alt="Tablet & Mobile"
             className=" w-full max-w-md"
-          />  
+          />
         </div>
       </section>
       <section className="flex justify-between gap-8 p-6 bg-gray-100">
-        <ul className=" ml-30 mr-30 flex w-full justify-around">
+        <ul className=" md:ml-30 md:mr-30 flex w-full justify-around">
           <li className="text-center">
             <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
             <div className="text-gray-400 text-sm">Lead Conversion</div>

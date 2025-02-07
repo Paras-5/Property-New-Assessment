@@ -23,7 +23,7 @@ const FeatureSlider = () => {
       <div className="flex justify-center gap-3 mb-8">
         {features.map((feature) => (
           <button
-            className={`hover:cursor-pointer text-sm mr-8 text-[#FD4646] hidden md:block px-4 py-1.5 rounded-4xl transition-all duration-300 ${
+            className={`hover:cursor-pointer text-sm mr-8 text-[#FD4646] px-4 py-1.5 rounded-4xl transition-all duration-300 ${
               selectedFeature.id === feature.id
                 ? "bg-gradient-to-r from-[#680F0F] to-[#FD4646] hover:bg-[#bb2828dc] text-white"
                 : "bg-white text-[#FD4646] hover:bg-[#f5f5f5] border border-[#FD4646]"

@@ -6,8 +6,8 @@ import Arrow from "../assets/Arrow.png";
 const Footer = () => {
   return (
     <div className="relative">
-      <div class="absolute top-0 left-0 w-[200px] h-[350px] bg-[#2c0606] blur-3xl "></div>
-      <div class="absolute top-0 right-0 w-[200px] h-[280px] bg-[#2c0606] blur-3xl"></div>
+      <div className="md:block hidden absolute top-0 left-0 w-[200px] h-[350px] bg-[#2c0606] blur-3xl "></div>
+      <div className="md:block hidden absolute top-0 right-0 w-[200px] h-[280px] bg-[#2c0606] blur-3xl"></div>
       <footer className=" text-center bg-black text-white p-8">
         {/* Heading */}
         <h2 className="text-3xl font-light mb-4 mt-5">
@@ -34,13 +34,13 @@ const Footer = () => {
           </div>
 
           {/* Right Part (2 Sections) */}
-          <div className="w-full md:w-1/2 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
+          <div className=" md:w-1/2 flex flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
             {/* First Image */}
-            <img src={Magnet} alt="Magnet" className="w-24 md:w-30 lg:w-56" />
+            <img src={Magnet} alt="Magnet" className="w-30 lg:w-56" />
 
             {/* Arrow Icon */}
             <span>
-              <img src={Arrow} alt="Arrow" className="w-12 md:w-20 lg:w-40" />
+              <img src={Arrow} alt="Arrow" className="w-20 lg:w-40" />
             </span>
 
             {/* Second Image */}
