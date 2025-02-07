@@ -47,7 +47,7 @@ const Footer = () => {
             <img
               src={FooterLogo}
               alt="Footer Logo"
-              className="w-20 md:w-24 lg:w-64"
+              className="w-32 lg:w-64"
             />
           </div>
         </div>

@@ -42,19 +42,19 @@ const HeroSection = () => {
       <section className="flex justify-between gap-8 p-6 bg-gray-100">
         <ul className=" md:ml-30 md:mr-30 flex w-full justify-around">
           <li className="text-center">
-            <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
+            <h1 className="md:text-left text-2xl font-bold text-gray-500">30%</h1>
             <div className="text-gray-400 text-sm">Lead Conversion</div>
           </li>
           <li className="text-center">
-            <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
+            <h1 className="md:text-left text-2xl font-bold text-gray-500">30%</h1>
             <div className="text-gray-400 text-sm">Lead Conversion</div>
           </li>
           <li className="text-center">
-            <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
+            <h1 className="md:text-left text-2xl font-bold text-gray-500">30%</h1>
             <div className="text-gray-400 text-sm">Lead Conversion</div>
           </li>
           <li className="text-center">
-            <h1 className="text-left text-2xl font-bold text-gray-500">30%</h1>
+            <h1 className="md:text-left text-2xl font-bold text-gray-500">30%</h1>
             <div className="text-gray-400 text-sm">Lead Conversion</div>
           </li>
         </ul>
